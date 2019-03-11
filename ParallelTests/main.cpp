@@ -556,8 +556,8 @@ int main(int argc, char *argv[])
         sumfinetime+=tocfine;
         
         double diff=0;
-        for (int v=0; v<M*M; v++){
-            for (int r=0; r< M*M; r++){
+        for (int v=0; v<M; v++){
+            for (int r=0; r< M; r++){
                 diff=diff + fabs(UFM[v+r*M]-overallfine[v+r*M]);
             }
             
