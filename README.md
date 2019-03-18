@@ -36,6 +36,6 @@
   2. Compile with make.
   3. Run executable with inputs N,K,number of threads, T0,gamma,delta,x0 (as defined above).
   
-  To perform scale test, update make file to compile scaletest.cpp instead of main.cpp.
+  To perform scale test, use Makefile1.
   1. Compile with make.
   2. Run executable with inputs N,K, T0,gamma,delta,x0 (as defined above).
